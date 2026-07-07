@@ -1,0 +1,6 @@
+@Campus.Services.AuthenticationAPI_HostAddress = http://localhost:5079
+
+GET {{Campus.Services.AuthenticationAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
