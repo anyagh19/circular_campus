@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Campus.Services.AuthenticationAPI.Controllers.AuthenticationAPIController",
+    "Method": "CreateCampus",
+    "RelativePath": "api/AuthenticationAPI/CreateCampus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Campus.Services.AuthenticationAPI.Model.Dtos.CampusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Campus.Services.AuthenticationAPI.Controllers.AuthenticationAPIController",
+    "Method": "Login",
+    "RelativePath": "api/AuthenticationAPI/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Campus.Services.AuthenticationAPI.Model.Dtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

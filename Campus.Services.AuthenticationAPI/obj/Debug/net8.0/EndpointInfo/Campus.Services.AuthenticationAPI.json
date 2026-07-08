@@ -1,0 +1,119 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Campus.Services.AuthenticationAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/AuthenticationAPI/CreateCampus": {
+      "post": {
+        "tags": [
+          "AuthenticationAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampusDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampusDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CampusDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/AuthenticationAPI/Login": {
+      "post": {
+        "tags": [
+          "AuthenticationAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CampusDto": {
+        "type": "object",
+        "properties": {
+          "campusName": {
+            "type": "string",
+            "nullable": true
+          },
+          "campusLocation": {
+            "type": "string",
+            "nullable": true
+          },
+          "campusEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "campusPhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "campusCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "campusPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDto": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
