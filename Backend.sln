@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{83
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campus.Services.AuthenticationAPI", "Campus.Services.AuthenticationAPI\Campus.Services.AuthenticationAPI.csproj", "{30EE44FE-12CE-4A99-90FF-F382EEA942EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campus.Gateway", "Campus.Gateway\Campus.Gateway.csproj", "{0C59AFD2-946B-4320-B6E3-CC1C566725E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{30EE44FE-12CE-4A99-90FF-F382EEA942EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30EE44FE-12CE-4A99-90FF-F382EEA942EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30EE44FE-12CE-4A99-90FF-F382EEA942EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C59AFD2-946B-4320-B6E3-CC1C566725E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C59AFD2-946B-4320-B6E3-CC1C566725E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C59AFD2-946B-4320-B6E3-CC1C566725E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C59AFD2-946B-4320-B6E3-CC1C566725E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{30EE44FE-12CE-4A99-90FF-F382EEA942EF} = {83F1F0B0-C357-4D9D-869E-35495230A033}
+		{0C59AFD2-946B-4320-B6E3-CC1C566725E3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {385C65FF-0352-46BD-A434-D87521E1388F}

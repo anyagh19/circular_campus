@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/AuthenticationAPI/CreateCampus": {
+    "/api/AuthApi/CreateCampus": {
       "post": {
         "tags": [
           "AuthenticationAPI"
@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/AuthenticationAPI/Login": {
+    "/api/AuthApi/Login": {
       "post": {
         "tags": [
           "AuthenticationAPI"

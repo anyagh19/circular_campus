@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Campus.Services.AuthenticationAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/AuthApi")]
     [ApiController]
     public class AuthenticationAPIController : ControllerBase
     {

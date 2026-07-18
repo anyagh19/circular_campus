@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C59AFD2-946B-4320-B6E3-CC1C566725E3}|Campus.Gateway\\Campus.Gateway.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C59AFD2-946B-4320-B6E3-CC1C566725E3}|Campus.Gateway\\Campus.Gateway.csproj|solutionrelative:campus.gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C59AFD2-946B-4320-B6E3-CC1C566725E3}|Campus.Gateway\\Campus.Gateway.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C59AFD2-946B-4320-B6E3-CC1C566725E3}|Campus.Gateway\\Campus.Gateway.csproj|solutionrelative:campus.gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C59AFD2-946B-4320-B6E3-CC1C566725E3}|Campus.Gateway\\Campus.Gateway.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C59AFD2-946B-4320-B6E3-CC1C566725E3}|Campus.Gateway\\Campus.Gateway.csproj|solutionrelative:campus.gateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\controllers\\authenticationapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\controllers\\authenticationapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\services\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\model\\dtos\\campusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\model\\dtos\\campusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\model\\entities\\campusbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\model\\entities\\campusbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\model\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\model\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|c:\\users\\amark\\onedrive\\desktop\\campus\\campus.services.authenticationapi\\migrations\\20260708122529_addcampusandstudenttodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30EE44FE-12CE-4A99-90FF-F382EEA942EF}|Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj|solutionrelative:campus.services.authenticationapi\\migrations\\20260708122529_addcampusandstudenttodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,128 +34,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Services\\AuthenticationService.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T12:42:24.733Z",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Gateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Campus.Gateway\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Gateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Campus.Gateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-18T15:32:01.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CampusDto.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Model\\Dtos\\CampusDto.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Model\\Dtos\\CampusDto.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Model\\Dtos\\CampusDto.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Model\\Dtos\\CampusDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T12:40:29.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AuthenticationAPIController.cs",
               "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Controllers\\AuthenticationAPIController.cs",
               "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Controllers\\AuthenticationAPIController.cs",
               "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Controllers\\AuthenticationAPIController.cs",
               "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Controllers\\AuthenticationAPIController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwDgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T12:41:02.38Z",
+              "WhenOpened": "2026-07-18T15:25:43.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\appsettings.json",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Ocelot.json",
+              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Gateway\\Ocelot.json",
+              "RelativeDocumentMoniker": "Campus.Gateway\\Ocelot.json",
+              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Gateway\\Ocelot.json",
+              "RelativeToolTip": "Campus.Gateway\\Ocelot.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-08T11:45:27.989Z",
+              "WhenOpened": "2026-07-18T15:19:35.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Services\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Services\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Services\\IAuthenticationService.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Services\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T12:42:49.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Program.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwC0AAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Gateway\\Program.cs",
+              "RelativeDocumentMoniker": "Campus.Gateway\\Program.cs",
+              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Gateway\\Program.cs",
+              "RelativeToolTip": "Campus.Gateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T11:44:55.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CampusBranch.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Model\\Entities\\CampusBranch.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Model\\Entities\\CampusBranch.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Model\\Entities\\CampusBranch.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Model\\Entities\\CampusBranch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T11:47:27.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20260708122529_AddCampusAndStudentToDB.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Migrations\\20260708122529_AddCampusAndStudentToDB.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Migrations\\20260708122529_AddCampusAndStudentToDB.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Migrations\\20260708122529_AddCampusAndStudentToDB.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Migrations\\20260708122529_AddCampusAndStudentToDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T12:25:29.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Model\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Model\\Entities\\Student.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Model\\Entities\\Student.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Model\\Entities\\Student.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwCIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T11:53:17.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Campus.Services.AuthenticationAPI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\amark\\OneDrive\\Desktop\\Campus\\Campus.Services.AuthenticationAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Campus.Services.AuthenticationAPI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T11:44:11.861Z"
+              "WhenOpened": "2026-07-18T15:15:03.209Z",
+              "EditorCaption": ""
             }
           ]
         }

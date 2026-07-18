@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Campus.Services.AuthenticationAPI\\Campus.Services.AuthenticationAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Campus.Gateway\\Campus.Gateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

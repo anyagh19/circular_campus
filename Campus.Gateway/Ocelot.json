@@ -1,0 +1,32 @@
+{
+  "Routes": [
+    //there are two types upstream and downstream , upstream is the request that comes to the gateway and downstream is the request that goes to the microservice
+    {
+      "UpstreamPathTemplate": "/api/AuthApi/CreateCampus",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7121
+        }
+      ],
+      "DownstreamPathTemplate": "/api/AuthApi/CreateCampus"
+    },
+    {
+      "UpstreamPathTemplate": "/api/AuthApi/login",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamScheme": "Https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7121
+        }
+      ],
+      "DownstreamPathTemplate": "/api/AuthApi/login"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl":  "http://localhost:5010" // this is the base url for the gateway
+  }
+}
