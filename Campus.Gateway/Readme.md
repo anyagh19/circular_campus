@@ -6,27 +6,27 @@ This project is an API Gateway built with **.NET 8** and **Ocelot**. It acts as 
 
 ## 📦 Project Overview
 
-- **Framework**: .NET 8
-- **Gateway Library**: [Ocelot](https://github.com/ThreeMammals/Ocelot)
-- **Base URL (Gateway)**: `http://localhost:5010` (HTTP profile)
-- **Primary Downstream Service**: Authentication API (running on `https://localhost:7121` or `http://localhost:5079`)
+- **Framework:** .NET 8
+- **Gateway Library:** Ocelot
+- **Base URL (Gateway):** `http://localhost:5010`
+- **Primary Downstream Service:** Authentication API (`https://localhost:7121` or `http://localhost:5079`)
 
 ---
 
 ## 🚀 Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [Git](https://git-scm.com/) (optional)
-- A downstream service (e.g., Authentication API) running and accessible.
+- .NET 8 SDK
+- Git (optional)
+- Authentication API running
 
 ---
 
 ## ⚙️ Configuration
 
-The gateway behaviour is defined in `Ocelot.json`. The main sections are:
+The gateway behaviour is defined in `Ocelot.json`.
 
-- **`Routes`** – Defines upstream request patterns and maps them to downstream endpoints.
-- **`GlobalConfiguration`** – Sets the gateway’s public base URL (used for redirects and `Host` headers).
+- **Routes** – Maps incoming requests to downstream services.
+- **GlobalConfiguration** – Defines the gateway base URL.
 
 ### Example Configuration
 
@@ -38,7 +38,10 @@ The gateway behaviour is defined in `Ocelot.json`. The main sections are:
       "UpstreamHttpMethod": [ "Post" ],
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
-        { "Host": "localhost", "Port": 7121 }
+        {
+          "Host": "localhost",
+          "Port": 7121
+        }
       ],
       "DownstreamPathTemplate": "/api/AuthApi/CreateCampus"
     }
@@ -47,114 +50,179 @@ The gateway behaviour is defined in `Ocelot.json`. The main sections are:
     "BaseUrl": "http://localhost:5010"
   }
 }
-Important: The BaseUrl must match the exact URL on which the gateway is listening (here http://localhost:5010). This is used internally by Ocelot to construct correct Host headers and redirect URIs.
+```
 
-🔧 Running the Gateway
-Clone the repository (or navigate to the gateway project folder).
+> **Important:** The `BaseUrl` must match the URL on which the gateway is listening.
+
+---
+
+## 🔧 Running the Gateway
 
 Restore dependencies:
 
-bash
+```bash
 dotnet restore
-Run the gateway (HTTP profile):
+```
 
-bash
+Run the gateway using the HTTP launch profile:
+
+```bash
 dotnet run --launch-profile http
-Alternatively, you can use the https profile if you have an SSL certificate, but the current configuration uses HTTP.
+```
 
-The gateway will start and listen on http://localhost:5010. You should see Ocelot startup logs in the console.
+The gateway will start on:
 
-📬 Usage Examples
-Create a Campus (POST)
-Endpoint: http://localhost:5010/api/AuthApi/CreateCampus
+```
+http://localhost:5010
+```
 
-Headers:
+---
 
-text
+# 📬 Usage Examples
+
+## Create Campus
+
+**Endpoint**
+
+```
+POST http://localhost:5010/api/AuthApi/CreateCampus
+```
+
+### Headers
+
+```http
 Content-Type: application/json
-Request Body (JSON):
+```
 
-json
+### Request Body
+
+```json
 {
-    "campusName": "MIT World Peace University",
-    "campusLocation": "Pune, Maharashtra",
-    "campusEmail": "mit@test.com",
-    "campusPhone": "9876543210",
-    "campusCode": "MIT001",
-    "campusPassword": "Secure@123"
+  "campusName": "MIT World Peace University",
+  "campusLocation": "Pune, Maharashtra",
+  "campusEmail": "mit@test.com",
+  "campusPhone": "9876543210",
+  "campusCode": "MIT001",
+  "campusPassword": "Secure@123"
 }
-Expected Response:
+```
 
-200 OK (or appropriate status from downstream)
+### Expected Response
 
-The gateway forwards the request to the Authentication API and returns its response.
+```
+200 OK
+```
 
-Login (POST)
-Endpoint: http://localhost:5010/api/AuthApi/Login
+The gateway forwards the request to the Authentication API.
 
-Headers:
+---
 
-text
+## Login
+
+**Endpoint**
+
+```
+POST http://localhost:5010/api/AuthApi/Login
+```
+
+### Headers
+
+```http
 Content-Type: application/json
-Request Body (JSON):
+```
 
-json
+### Request Body
+
+```json
 {
-    "identifier": "mit@test.com",
-    "password": "Secure@123"
+  "identifier": "mit@test.com",
+  "password": "Secure@123"
 }
-Expected Response:
+```
 
-200 OK with access token and refresh token.
+### Expected Response
 
-🔒 SSL/TLS in Development
-When downstream services use self‑signed HTTPS certificates (e.g., https://localhost:7121), .NET’s HttpClient will reject them by default. For development only, the gateway includes a bypass in Program.cs:
+```json
+{
+  "accessToken": "<JWT Token>",
+  "refreshToken": "<Refresh Token>"
+}
+```
 
-csharp
+---
+
+# 🔒 SSL/TLS in Development
+
+If your downstream service uses a self-signed certificate (`https://localhost:7121`), add the following code in `Program.cs`.
+
+```csharp
 if (builder.Environment.IsDevelopment())
 {
     ServicePointManager.ServerCertificateValidationCallback +=
         (sender, cert, chain, sslPolicyErrors) => true;
 }
-Do not use this in production – ensure proper certificate trust or use a trusted CA.
+```
 
-🛠️ Adding New Routes
-To add a new downstream service, simply add a new entry in the Routes array inside Ocelot.json. For example:
+> **Warning:** Never use this in production.
 
-json
+---
+
+# 🛠️ Adding New Routes
+
+Example:
+
+```json
 {
   "UpstreamPathTemplate": "/api/Orders/{everything}",
   "UpstreamHttpMethod": [ "Get", "Post" ],
   "DownstreamScheme": "http",
   "DownstreamHostAndPorts": [
-    { "Host": "localhost", "Port": 5001 }
+    {
+      "Host": "localhost",
+      "Port": 5001
+    }
   ],
   "DownstreamPathTemplate": "/api/{everything}"
 }
-❗ Troubleshooting
-415 Unsupported Media Type
-Ensure your request has Content-Type: application/json header.
+```
 
-Verify that the downstream controller has [ApiController] and [FromBody] attributes.
+---
 
-Test the downstream service directly to isolate the issue.
+# ❗ Troubleshooting
 
-SSL Certificate Errors
-If you see Authentication failed or SSL_ERROR, ensure the SSL bypass is active (development only).
+## 415 Unsupported Media Type
 
-Alternatively, change DownstreamScheme to "http" for local testing.
+- Ensure `Content-Type: application/json` is present.
+- Verify the controller uses `[ApiController]`.
+- Verify request models use `[FromBody]`.
+- Test the downstream API directly.
 
-JSON Reader Exceptions
-Check that Ocelot.json is valid JSON (no trailing commas, proper quotes).
+---
 
-Ocelot supports comments (//), but some JSON parsers may not; ensure the file is correctly formatted.
+## SSL Certificate Errors
 
-📄 License
-This project is part of the Campus solution – refer to the main repository for licensing details.
+- Ensure the SSL bypass is enabled in development.
+- Or change the `DownstreamScheme` to `http` for local testing.
 
-👤 Author
-Aniket Markad
+---
 
-Happy coding! 🚀
+## JSON Reader Exceptions
 
-text
+- Validate `Ocelot.json`.
+- Remove trailing commas.
+- Use double quotes for all property names.
+- Ensure braces are properly closed.
+
+---
+
+# 📄 License
+
+This project is part of the Campus Solution.
+
+---
+
+# 👤 Author
+
+**Aniket Markad**
+
+Happy Coding! 🚀
